@@ -14,7 +14,7 @@
 //* Includes
 //******************************************************************************
 
-#include "firmata-spark/firmata.h"
+#include "firmata.h"
 #include "spark_wiring_usbserial.h"
 
 extern "C" {
