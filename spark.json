@@ -1,7 +1,7 @@
 {
-  "name": "firmata",
+  "name": "firmata-spark",
   "author": "Blake Jakopovic <blake.jakopovic@gmail.com>",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A port of the Arduino Firmata library for Spark Cores"
 }

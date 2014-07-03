@@ -1,6 +1,4 @@
-// IMPORTANT: When including a library in a firmware app, a sub dir prefix is needed
-// before the particular .h file.
-#include "firmata-spark/firmata.h"
+#include "firmata-spark/firmata-spark.h"
 
 TCPClient client;
 byte server[] = { 192, 168, 2, 10 }; // Firmata server IP
