@@ -8,11 +8,12 @@ void setup() {
 
   Serial.begin(9600);
 
+  delay(1000); // wait for serial to start
+
   if (client.connect(server, port)) {
     Serial.println("Connected");
     Firmata.begin(client);
-  }
-  else {
+  } else {
     Serial.println("Connection failed");
     while(1) {}; // loop forever
   }
