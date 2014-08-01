@@ -1,6 +1,10 @@
 Firmata-Spark
 ===
 
+#### This repo has been depreciated in favor of [Spark](https://github.com/jacobrosenthal/arduino/tree/Spark). The best outcome is for Spark Firmata support to be pushed upstream into the parent Firmata repo. If you'd like to see where things are at, take a look at the [Firmata Spark PR](https://github.com/firmata/arduino/pull/141/).
+
+---
+
 This is a port of the [Firmata](http://firmata.org/wiki/Main_Page) Arduino communication library for the Spark Core. **Please be aware that this is a very early release**.
   
 Since the Firmata library supports streaming, Firmata on the [Spark Core](https://www.spark.io/) supports Serial, TCP and UDP protocols. This means that you can control and interact with your Spark locally over your wireless network, without high latency and bandwidth limitations.
